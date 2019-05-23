@@ -1,3 +1,1 @@
-
-See requirements in GDocs here -> https://drive.google.com/file/d/1OiB_l8zVGD_pY2At7HwF86RjjV3bkGYp/view?usp=sharing
-
+#### Overview: [TRMS doc](https://docs.google.com/document/d/1iO6_OywCdUYBt2gT0STOsAnd3IjNmx5uLETfVAHjRhw/edit?usp=sharing)
