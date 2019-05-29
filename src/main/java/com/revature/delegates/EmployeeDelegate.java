@@ -40,7 +40,7 @@ public class EmployeeDelegate implements FrontControllerDelegate {
 		switch(req.getMethod()) {
 		case "GET":
 			log.trace("Retrieving a list of all employees");
-			Employee employee = employeeService.getEmployee(1);
+			Employee employee = employeeService.getEmployee(30);
 			resp.getWriter().write(objectMapper.writeValueAsString(employee));
 			break;
 		case "POST":

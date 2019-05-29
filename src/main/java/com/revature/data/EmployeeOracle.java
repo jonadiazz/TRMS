@@ -46,6 +46,10 @@ public class EmployeeOracle implements EmployeeDAO {
 			
 		} catch (SQLException e) {
 			log.warn("There was a problem trying to retrieve employee");
+		} catch (Exception e) {
+			log.warn("Random exception", e);
+			employee = Employee.getDummy();
+
 		}
 		
 		return employee;
